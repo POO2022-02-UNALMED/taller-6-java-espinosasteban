@@ -38,4 +38,9 @@ public class Pais extends Vehiculo{
         return pais_ganador;
 
     }
+
+    @Override
+    public String getNombre() {
+        return nombre;
+    }
 }
