@@ -27,6 +27,7 @@ public class Fabricante extends Vehiculo{
 
         }
 
+
     }
 
     public Fabricante(String nombre, Pais pais) {
@@ -41,9 +42,11 @@ public class Fabricante extends Vehiculo{
             diccionario.put(pais, cantidad+1);
 
         }
+        Vehiculo.setCantidadVehiculos(Vehiculo.getCantidadVehiculos()-1);
     }
 
     public Fabricante() {
+
 
     }
 
